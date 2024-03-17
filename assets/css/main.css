@@ -313,7 +313,19 @@ header
   border: transparent;
   letter-spacing: 1px;
 }
-
+.img-home{
+  margin-top: -50%;
+}
+@media (max-width:477px) {
+  .header-text h1 {
+    font-weight: 900;
+    font-size: 31px !important;
+    line-height: 80px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    color: #191a20;
+}
+}
 .header-area .main-nav .nav li:hover a {
   color: #29ABE2;
 }
@@ -676,7 +688,7 @@ welcome
   color:#0071BC ;
   font-size: 40px;
   font-weight: 500;
-  line-height: 45px;
+  line-height: 48px;
 }
 @media (max-width:477px) {
   .center-text p {
